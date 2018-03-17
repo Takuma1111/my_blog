@@ -38,7 +38,11 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'jquery-rails'
 # ------------- ここまで -------------------
 
+# ------------- 下記を追加 ----------------
+gem 'ransack'
 
+# ransackの下に追記します。
+gem 'kaminari'
 
 
 group :development, :test do
